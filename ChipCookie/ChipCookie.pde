@@ -1,4 +1,4 @@
-//Global Variables
+ //Global Variables
 //
 int appWidth, appHeight, smallerDimension ;
 Boolean OS_On=false, programStart = false ; ;
@@ -18,7 +18,7 @@ void setup() {
   population () ;
   loadImagesSetup () ;
   
-  //
+  //sdz
   //DIVs
   //Layout our text space and typographical features
   //rect ( SpaceBarX, SpaceBarY, SpaceBarWidth, SpaceBarHeight ) ;

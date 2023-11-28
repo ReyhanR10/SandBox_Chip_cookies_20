@@ -20,13 +20,15 @@ void backgroundImage () {
   backgroundRect () ;
   
   //Tint Codes = Brightness, Night Mode
-  image ( backgroundImage, ) ;
+  image ( backgroundImage, backgroundX, backgroundY, backgroundWidth, backgroundHeight ) ;
   
 } //END Background Image
 //
 void loadImagesSetup () {
   //
-  backgroundImage = loadImage("../Images/sunset-7628294_1920.jpg") ;
+  String Pathway = "../ImagesUsed/" ;
+  String MyImage = "sunset-7628294_1920.jpg" ;
+  backgroundImage = loadImage (Pathway + MyImage) ;
   
   
   
